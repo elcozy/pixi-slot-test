@@ -32,7 +32,7 @@ export class CreationEngine extends Application {
 
 		const webglVersion = gl instanceof WebGL2RenderingContext ? 'WebGL 2' : 'WebGL 1';
 
-		sayHello('Xciting Tech - ' + webglVersion);
+		sayHello('Tech - ' + webglVersion);
 
 		const targetElement = document.getElementById('app') as HTMLElement;
 		targetElement.appendChild(this.canvas);
