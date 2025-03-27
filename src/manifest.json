@@ -1,0 +1,100 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "sounds/click.mp3",
+            "click.mp3"
+          ],
+          "src": [
+            "sounds/click.ogg",
+            "sounds/click.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        }
+      ]
+    },
+    {
+      "name": "font",
+      "assets": [
+        {
+          "alias": [
+            "font/gilroy/Gilroy-Medium.ttf",
+            "Gilroy-Medium.ttf"
+          ],
+          "src": [
+            "font/gilroy/Gilroy-Medium.ttf"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "assets": [
+        {
+          "alias": [
+            "main/reel_board",
+            "reel_board"
+          ],
+          "src": [
+            "main/reel_board@0.5x.json",
+            "main/reel_board.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true,
+              "nc": true
+            }
+          }
+        },
+        {
+          "alias": [
+            "main/symbols2",
+            "symbols2"
+          ],
+          "src": [
+            "main/symbols2@0.5x.json",
+            "main/symbols2.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true,
+              "nc": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "preload",
+      "assets": [
+        {
+          "alias": [
+            "preload/loading-bg-desktop.png",
+            "loading-bg-desktop.png"
+          ],
+          "src": [
+            "preload/loading-bg-desktop.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "copy": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
+		"target": "ESNext",
+		"useDefineForClassFields": true,
+		"module": "ESNext",
+		"allowJs": true,
+		"checkJs": true,
+		"isolatedModules": true,
+		"moduleDetection": "force",
+		"jsx": "react-jsx",
+		"types": ["vitest/globals", "@testing-library/jest-dom"]
+	},
+	"include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js"]
+}
